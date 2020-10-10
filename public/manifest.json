@@ -1,0 +1,15 @@
+{
+  "short_name": "Juan D. Jara",
+  "name": "Juan D. Jara: Web Developer",
+  "icons": [
+    {
+      "src": "avatar.jpg",
+      "sizes": "80x80",
+      "type": "image/jpg"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#cf4646",
+  "background_color": "#ffffff"
+}

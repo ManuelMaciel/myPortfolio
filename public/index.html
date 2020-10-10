@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#fc3565">
+    <meta name="description" content="Portfolio Jesús Acuña">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="https://instagram.fasu5-1.fna.fbcdn.net/v/t51.2885-19/s150x150/95412360_2524940717758719_3808615434308026368_n.jpg?_nc_ht=instagram.fasu5-1.fna.fbcdn.net&_nc_ohc=xpcALseeo48AX_M9ERq&oh=a68ab2fac088a65168c99249f3775106&oe=5FAC06B7">
+    <link async href="global.css" rel="stylesheet">
+    <link async href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link async href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Jesús Acuña</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Varela Round', sans-serif;
+      }
+      @media (min-width: 768px) {
+        body {
+          display: flex;
+          height: 100vh;
+          overflow: hidden;
+        }
+      }
+      h1, h2, h3 {
+        font-weight: normal;
+      }
+      noscript {
+        padding: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <aside>
+      <header>
+        <a>
+          <img id="hello" style="width:100px; height:100px;" src="https://instagram.fasu5-1.fna.fbcdn.net/v/t51.2885-19/s150x150/95412360_2524940717758719_3808615434308026368_n.jpg?_nc_ht=instagram.fasu5-1.fna.fbcdn.net&_nc_ohc=xpcALseeo48AX_M9ERq&oh=a68ab2fac088a65168c99249f3775106&oe=5FAC06B7" alt="Profile Picture">
+          <h1>Jesús Acuña</h1>
+          <p>Web Developer</p>
+        </a>
+      </header>
+      <nav>
+        <a href="#projects">Projects</a>
+        <a href="#about_me">About me</a>
+        <a href="#contact_me">Contact</a>
+      </nav>
+    </aside>
+    <main>
+      <div class="content">
+        <h1 id="hola">Welcome to my portfolio.</h1>
+        <h2 id="projects">Projects</h2>
+        <p>These are some of my projects, others are in my github profile and many others are deep in my hard drive he he</p>
+        <noscript>
+          The list of projects is loaded via Javascript.
+        </noscript>
+        <div id="root">
+          <div class="loadingspinner"></div>
+        </div>
+        <h2 id="about_me">About me</h2>
+        <p>
+          I am a student, currently in the second year of my computer engineering degree at Uninorte. Since I was 14 years old i started working in technology 🚀. This has helped me develop a very good technology mindset, and has given me the curiosity to learn more. 🌠
+        </p>
+        <h2 id="contact_me">Contact</h2>
+        <p>
+          Here you can <a target="_blank" href="https://drive.google.com/file/d/1k0v1BARVECmq8a14rvDmn8DL50oDYQ3S/view?usp=sharing">download my CV</a>.
+          This is my mail <a target="_blank" href="mailto:manuelmaciel7001@hotmail.com">manuelmaciel7001@hotmail.com</a> and here bellow are my social network.
+        </p>
+        <a class="contact" target="_blank" href="https://instagram.com/m_maciel7"><i class="fa fa-instagram"></i></a>
+        <a class="contact" target="_blank" href="https://github.com/manuelmaciel"><i class="fa fa-github"></i></a>
+        <footer>
+          <p>
+            designed and developed by Jesús Acuña
+          </p>
+        </footer>
+      </div>
+      </script>
+    </main>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
