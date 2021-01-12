@@ -1,0 +1,79 @@
+{
+  "name": "v4",
+  "description": "Portfolio ManuelMaciel",
+  "version": "1.0.0",
+  "author": "Manuel Maciel <manuelmaciel7001@hotmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manuelmaciel"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,json,md}": [
+      "prettier --write"
+    ],
+    "*.js": [
+      "eslint --fix"
+    ]
+  },
+  "dependencies": {
+    "animejs": "^3.2.1",
+    "babel-plugin-styled-components": "^1.12.0",
+    "gatsby": "^2.29.3",
+    "gatsby-image": "^2.8.0",
+    "gatsby-plugin-google-gtag": "^2.5.0",
+    "gatsby-plugin-manifest": "^2.9.1",
+    "gatsby-plugin-netlify": "^2.8.0",
+    "gatsby-plugin-offline": "^3.7.1",
+    "gatsby-plugin-react-helmet": "^3.7.0",
+    "gatsby-plugin-robots-txt": "^1.5.5",
+    "gatsby-plugin-sharp": "^2.11.2",
+    "gatsby-plugin-sitemap": "^2.9.0",
+    "gatsby-plugin-styled-components": "^3.7.0",
+    "gatsby-remark-external-links": "0.0.4",
+    "gatsby-remark-images": "^3.8.1",
+    "gatsby-remark-prismjs": "^3.10.0",
+    "gatsby-source-filesystem": "^2.8.1",
+    "gatsby-transformer-remark": "^2.13.1",
+    "gatsby-transformer-sharp": "^2.9.0",
+    "lodash": "^4.17.20",
+    "prismjs": "^1.23.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-helmet": "^6.1.0",
+    "react-transition-group": "^4.4.1",
+    "scrollreveal": "^4.0.7",
+    "smooth-scroll": "^16.1.0",
+    "styled-components": "^4.4.0"
+  },
+  "devDependencies": {
+    "@upstatement/eslint-config": "0.4.3",
+    "@upstatement/prettier-config": "^0.3.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "gatsby-remark-code-titles": "^1.1.0",
+    "husky": "^4.3.6",
+    "lint-staged": "^10.5.3",
+    "prettier": "^2.2.1"
+  }
+}
