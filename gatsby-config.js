@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Manuel Maciel Portfolio',
     description:
-      'Soy un desarrollador Full Stack autodidacta y estudiante universitario de la poderosa ingeniería informática',
+      'Soy un desarrollador web autodidacta y estudiante universitario de la poderosa ingeniería informática',
     siteUrl: 'https://manuelmaciel.vercel.app', // No trailing slash allowed!
     image: '/me.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '',
