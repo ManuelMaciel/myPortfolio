@@ -134,18 +134,18 @@ const About = () => {
   const skills = [
     'JavaScript (ES6+)',
     'HTML & CSS',
-    'Typescript(ES6+)',
+    'Dart',
     'NextJS',
     'ReactJS',
     'Node.js',
-    'Django',
+    'RESTful',
     'Flutter',
     'Firebase',
-    'React Native',
+    'MongoDB',
     'Python',
     'Gatsby',
     'Flask',
-    'Electron.js',
+    'Pug',
     'Express.js',
     'Sass',
     'Amazon Web Services',
@@ -160,7 +160,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Soy Manuel, desarrollador Full Stack autodidacta y apasionado a la tecnologia.</p>
+              Soy Manuel, desarrollador Web autodidacta y apasionado a la tecnologia.</p>
 
             <p>
             Actualmente estoy cursando el tercer año de Ingeniería Informática en la Universidad del Norte. Me especializo como programador en el área web y en plataformas y Android. Estoy interesado en el campo del desarrollo web/móvil y estoy buscando oportunidades interesantes relacionadas con el mismo.
