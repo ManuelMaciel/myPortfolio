@@ -3,7 +3,7 @@ module.exports = {
 
   socialMedia: [
     {
-      name: 'GitHub',
+      name: 'Github',
       url: 'https://github.com/manuelmaciel',
     },
     {
@@ -14,7 +14,7 @@ module.exports = {
 
   navLinks: [
     {
-      name: 'Sobre mi',
+      name: 'About me',
       url: '/#about',
     },
     // {
@@ -22,11 +22,11 @@ module.exports = {
     //   url: '/#jobs',
     // },
     {
-      name: 'Proyectos',
+      name: 'Projects',
       url: '/#projects',
     },
     {
-      name: 'Contacto',
+      name: 'Contact',
       url: '/#contact',
     },
   ],
