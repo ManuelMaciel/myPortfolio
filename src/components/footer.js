@@ -63,7 +63,7 @@ export default function Footer() {
 
       <StyledCredit tabindex="-1">
         <a href="/#">
-          <div>Ir arriba</div>
+          <div>Go to top</div>
         </a>
       </StyledCredit>
     </StyledFooter>

@@ -47,17 +47,13 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hola, mi nombre es</h1>;
-  const two = <h2 className="big-heading">Manuel Maciel.</h2>;
-  const three = <h3 className="big-heading">Desarrollador Web.</h3>;
-  const four = (
-    <p>
-      Desarrollo aplicaciones.
-    </p>
-  );
+  const one = <h1></h1>;
+  const two = <h2 className="big-heading"></h2>;
+  const three = <h3 className="big-heading">Hey, I’m Manuel Maciel</h3>;
+  const four = <p>Software Developer.</p>;
   const five = (
     <a href={`mailto:${email}`} className="email-link">
-      Ponte en contacto...
+      Get in touch...
     </a>
   );
 

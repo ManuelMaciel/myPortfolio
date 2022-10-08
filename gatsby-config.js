@@ -2,17 +2,29 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Manuel Maciel Portfolio',
-    description:
-      'Soy un desarrollador web autodidacta y estudiante universitario de la poderosa ingeniería informática',
+    title: 'ManuelMaciel',
+    description: 'Full stack Web Developer',
     siteUrl: 'https://manuelmaciel.vercel.app', // No trailing slash allowed!
     image: '/me.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '',
+    twitterUsername: 'm_maciel6',
     author: 'manuelmaciel7001@hotmail.com Manuel Maciel',
     name: 'Manuel Maciel',
     url: 'https://manuelmaciel.vercel.app',
     language: `es-ES`,
-    keywords: ['Manuel', 'Maciel', 'Programacion', 'Ingenieria', 'Software', 'Codigo', 'Freelance', 'Diseño'],
+    keywords: [
+      'Manuel',
+      'Maciel',
+      'Programacion',
+      'Development',
+      'Engineering',
+      'Ingenieria',
+      'Software',
+      'Codigo',
+      'Code',
+      'Freelance',
+      'Diseño',
+      'Design',
+    ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -26,7 +38,7 @@ module.exports = {
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
         trackingIds: [
-          'G-3LLLTTP7MQ', // Google Analytics / GA
+          'G-L1HDK4TFQE', // Google Analytics / GA
         ],
         // This object gets passed directly to the gtag config command
         // This config will be shared across all trackingIds

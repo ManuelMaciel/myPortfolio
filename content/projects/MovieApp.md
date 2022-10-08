@@ -12,4 +12,3 @@ showInProjects: true
 ---
 
 App of movie made with electron, shows the data of a movie as actors, directors, description and score
-

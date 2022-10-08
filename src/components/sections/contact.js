@@ -46,17 +46,16 @@ export default function Contact() {
 
   return (
     <StyledContactSection id="contact" ref={revealContainer}>
-      <h2 className="numbered-heading overline">¿Qué sigue?</h2>
-      <h2 className="title">Ponte en contacto...</h2>
+      <h2 className="numbered-heading overline">What's next?</h2>
+      <h2 className="title">Get in touch...</h2>
 
       <p>
-        Hago desarrollo freelance a tiempo completo y no dude en contactarme
-        para posibles consultas, colaboraciones, proyectos o cualquier otra cosa, mi bandeja de entrada está siempre abierta. Enviame un mensaje.
+        Do contact me if you need my opinion about web development, especially frontend works.
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>
-        Enviame un mensaje
+        Send me a message
       </a>
     </StyledContactSection>
   );
-};
+}

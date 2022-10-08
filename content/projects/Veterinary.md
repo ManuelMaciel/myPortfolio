@@ -11,4 +11,3 @@ showInProjects: true
 ---
 
 React, veterinary patient manager using local storage
-

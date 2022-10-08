@@ -3,8 +3,12 @@ module.exports = {
 
   socialMedia: [
     {
-      name: 'Github',
+      name: 'GitHub',
       url: 'https://github.com/manuelmaciel',
+    },
+    {
+      name: 'Instagram',
+      url: 'https://www.instagram.com/m_maciel7/',
     },
     {
       name: 'LinkedIn',
@@ -17,10 +21,10 @@ module.exports = {
       name: 'About me',
       url: '/#about',
     },
-    // {
-    //   name: 'Experiencia',
-    //   url: '/#jobs',
-    // },
+    {
+      name: 'Jobs',
+      url: '/#jobs',
+    },
     {
       name: 'Projects',
       url: '/#projects',

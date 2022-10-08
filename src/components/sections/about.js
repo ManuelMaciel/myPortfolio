@@ -132,40 +132,39 @@ const About = () => {
   }, []);
 
   const skills = [
-    'JavaScript (ES6+)',
-    'HTML & CSS',
-    'Dart',
-    'ReactJS',
-    'Node.js',
-    'RESTful',
-    'Flutter',
-    'Firebase',
-    'MongoDB',
-    'Python',
-    'Flask',
-    'Express.js',
-    'Sass',
-    'Amazon Web Services',
-    'Microsoft Azure',
+    'JS & TS',
+    'React & Next',
+    'React Native & Expo',
+    'Vue',
+    'Flutter (for fun)',
+    'Node & Deno',
+    'Golang (for fun)',
+    'Python (for fun)',
+    'GraphQL & tRCP',
+    'AWS & GCP',
+    'Docker',
+    'Rust (for fun)',
+    'Github Actions',
+    'Fiber'
   ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
-      <h2 className="numbered-heading">Sobre mi</h2>
+      <h2 className="numbered-heading">About me</h2>
 
       <div className="inner">
         <StyledText>
           <div>
             <p>
-              Soy Manuel, desarrollador Web autodidacta y apasionado a la tecnología.</p>
-
-            <p>
-            Actualmente estoy cursando el tercer año de Ingeniería Informática en la Universidad del Norte. Me especializo como programador en el área web y en plataformas y Android. Estoy interesado en el campo del desarrollo web/móvil y estoy buscando oportunidades interesantes relacionadas con el mismo.
-
-            Me considero una persona bastante curiosa y autodidacta que disfruta aprendiendo, me apasiona la tecnología y busco crear algo nuevo todos los días, me gusta resolver problemas de la manera más eficiente posible y sin errores. {' '}
+              Software developer, passionate about AI, automation and gaming development. 
+              Skilled in React, Node and Typescript and with more than 2 years of experience in Full Stack Development.
             </p>
-
-            <p>Aquí hay algunas tecnologías con las que he estado trabajando recientemente:</p>
+            <p>
+              4th year college student, studying Computer Engineering at Uninorte University. 
+              My main focus these days is building responsive and elegant web and mobile applications. 
+              I also enjoy learning new things and playing video games in my spare time.
+            </p>
+            <p>My favorite technologies: </p>
           </div>
 
           <ul className="skills-list">

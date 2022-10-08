@@ -7,3 +7,4 @@ export { default as IconLoader } from './loader';
 export { default as IconLogo } from './logo';
 export { default as IconStar } from './star';
 export { default as IconZap } from './zap';
+export { default as IconInstagram } from './instagram';

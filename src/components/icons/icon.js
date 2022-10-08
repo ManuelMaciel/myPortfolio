@@ -8,6 +8,7 @@ import {
   IconLoader,
   IconLogo,
   IconZap,
+  IconInstagram,
 } from '@components/icons';
 
 const Icon = ({ name }) => {
@@ -26,6 +27,8 @@ const Icon = ({ name }) => {
       return <IconLogo />;
     case 'PlayStore':
       return <IconZap />;
+    case 'Instagram':
+      return <IconInstagram />;
     default:
       return <IconExternal />;
   }
